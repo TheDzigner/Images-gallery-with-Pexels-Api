@@ -88,7 +88,7 @@ if (srch_input.value == '' || srch_input.value == ' ') {
 
                   <button>
 
-                 <a href=${data[i].src.original } download=${data[i].alt} >Download</a>
+                 <a href=${data[i].src.original} download=${data[i].alt} >Download</a>
 
                   </button>
 
