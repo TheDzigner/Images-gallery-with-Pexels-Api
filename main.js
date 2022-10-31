@@ -72,10 +72,35 @@ if (srch_input.value == '' || srch_input.value == ' ') {
 
         <div class="img_card">
 
-      <img src=${data[i].src.original} alt="">
+                <div class="img_container">
 
-    </div>
+                <img src=${data[i].src.original} alt=${data[i].alt}>
 
+                </div>
+
+                <div class="details">
+
+                  <h3>
+
+               Photo by <a href=${data[i].photographer_url}>${data[i].photographer}</a> on Pexels 
+
+                  </h3> 
+
+                  <button>
+
+                 <a href=${data[i].src.original } download=${data[i].alt} >Download</a>
+
+                  </button>
+
+                  <a href="https://pexels.com" target='_blank'>
+
+                Photo provided by Pexels
+
+                  </a>
+
+                </div>
+
+            </div>
         `
 
         createCard += show
