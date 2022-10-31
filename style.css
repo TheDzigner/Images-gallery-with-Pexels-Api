@@ -17,7 +17,8 @@ body
   min-height:100vh;
 
   max-width: 480px;
-
+  
+  margin : auto auto auto auto;
   
 
 }
