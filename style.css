@@ -1,0 +1,160 @@
+*
+
+{
+
+  margin:0;
+
+  padding:0;
+
+  box-sizing: border-box;
+
+}
+
+body 
+
+{
+
+  min-height:100vh;
+
+  max-width: 480px;
+
+  
+
+}
+
+header 
+
+{
+
+  position: fixed;
+
+  width:100%;
+
+  height:80px;
+
+  top: 0;
+
+  left :0;
+
+  max-width: 480px;
+
+  display:flex ;
+
+  justify-content :space-around ;
+
+  align-items :center ;
+
+  z-index:20;
+
+  border-bottom:1px solid #c1c1c1;
+
+  background:#f1f1f1;
+
+}
+
+header input 
+
+{
+
+  padding:10px 20px ;
+
+  outline: none;
+
+  border-radius: 5px;
+
+  border:1px solid #666;
+
+}
+
+header button 
+
+{
+
+  display:block ;
+
+  padding:10px 10px;
+
+  border-radius: 5px;
+
+  border:1px solid #666;
+
+  outline: none;
+
+}
+
+.title
+
+{
+
+margin:25% auto 0;
+
+text-align: center ;
+
+ max-width:480px;
+
+}
+
+.title h3 
+
+{
+
+  font-size:1em ;
+
+  padding:5px ;
+
+}
+
+.container 
+
+{
+
+ margin:5% auto 0 ;
+
+ width:100%;
+
+  max-width:480px;
+
+ height:auto;
+
+ display:flex ;
+
+ justify-content:left ;
+
+ align-items :center ;
+
+ flex-wrap: wrap;
+
+  gap:5px ;
+
+}
+
+.container .img_card
+
+{
+
+  min-width: 200px;
+
+  max-width: 200px;
+
+  height:170px;
+
+  text-align: center ;
+
+  position :relative ;
+
+  border:1px solid darkgrey;
+
+}
+
+.container .img_card img 
+
+{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit: cover;
+
+}
+
