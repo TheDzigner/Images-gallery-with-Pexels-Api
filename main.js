@@ -129,7 +129,10 @@ next_btn.addEventListener('click',function(){
    }
 
    loadContent()
-
+window.scrollTo({
+top : 0,
+ behavior : 'smooth'
+}) 
 })
 
 prev_btn.addEventListener('click',function(){
@@ -187,6 +190,13 @@ prev_btn.addEventListener('click',function(){
          '563492ad6f91700001000001256a669c576e4fdf8fac8f241a9ec042'
 
        }
+     window.scrollTo({
+
+top : 0,
+
+ behavior : 'smooth'
+
+}) 
 
      })
 
