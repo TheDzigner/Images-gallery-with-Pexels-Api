@@ -59,14 +59,14 @@ next_btn.addEventListener('click',function(){
      const data = await results.json()
 
    showImg(data.photos)
-
+  window.scrollTo({ top: 0, behavior: 'smooth' }); 
      console.log(data)
 
    }
 
    loadContent()
 
-   window.scrollTo({ top: 0, behavior: 'smooth' }); 
+   
 
 })
 
@@ -99,6 +99,8 @@ next_btn.addEventListener('click',function(){
      const data = await results.json()
 
    showImg(data.photos)
+window.scrollTo({ top: 0, behavior: 'smooth' }); 
+
 
      console.log(data)
 
@@ -106,8 +108,7 @@ next_btn.addEventListener('click',function(){
 
    loadContent()
 
-   window.scrollTo({ top: 0, behavior: 'smooth' }); 
-
+   
 })
 
 btn_srch.addEventListener('click',function(){
