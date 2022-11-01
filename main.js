@@ -26,77 +26,18 @@ var srch_input =
 
 document.querySelector('#search_input')
 
-const curated = async () =>{
 
-   const results = await fetch(`https://api.pexels.com/v1/curated?page=${next}&per_page=15
-
-`,{
-
-         method : 'GET', 
-
-       headers : {
-
-         Accept : 'application/json', 
-
-         Authorization:
-
-         '563492ad6f91700001000001256a669c576e4fdf8fac8f241a9ec042'
-
-       }
-
-     })
-
-     
-
-     const data = await results.json()
-
-   showImg(data.photos)
-
-     console.log(data)
-
-   }
-
-   
-
-   curated()
 
 next_btn.addEventListener('click',function(){
 
   next++
 
-  const curated = async () =>{
-
-   const results = await fetch(`https://api.pexels.com/v1/curated?page=${next}&per_page=15
-
-`,{
-
-         method : 'GET', 
-
-       headers : {
-
-         Accept : 'application/json', 
-
-         Authorization:
-
-         '563492ad6f91700001000001256a669c576e4fdf8fac8f241a9ec042'
-
-       }
-
-     })
+  
 
      
-
-     const data = await results.json()
-
-   showImg(data.photos)
-
-     console.log(data)
-
-   }
-
    
 
-   curated()
+ 
 
    
 
@@ -140,40 +81,7 @@ prev_btn.addEventListener('click',function(){
 
   
 
-  const curated = async () =>{
-
-   const results = await fetch(`https://api.pexels.com/v1/curated?page=${next}&per_page=15
-
-`,{
-
-         method : 'GET', 
-
-       headers : {
-
-         Accept : 'application/json', 
-
-         Authorization:
-
-         '563492ad6f91700001000001256a669c576e4fdf8fac8f241a9ec042'
-
-       }
-
-     })
-
-     
-
-     const data = await results.json()
-
-   showImg(data.photos)
-
-     console.log(data)
-
-   }
-
-   
-
-   curated()
-
+  
   const loadContent = async () => {
 
    const results = await fetch(`https://api.pexels.com/v1/search?query=${srch_input.value}&page=${next}`,{
