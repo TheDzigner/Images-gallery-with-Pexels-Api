@@ -335,3 +335,61 @@ text-align: center ;
 
 }
 
+.expend_img 
+
+{
+
+  position:fixed;
+
+  width:98%;
+
+  height:80%;
+
+  right:1%;
+
+  max-width:480px;
+
+  bottom:5%;
+
+  border:1px solid red ;
+
+  display:none;
+
+}
+
+.expend_img img 
+
+{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover ;
+
+}
+
+.expend_img span 
+
+{
+
+  position:absolute ;
+
+  margin-left: 2%;
+
+  margin-top :2%;
+
+  display:block ;
+
+  background:#FE7E83 ;
+
+  width:35px;
+
+  line-height: 1;
+
+  font-size:2em ;
+
+  text-align :center ;
+
+}
+
