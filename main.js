@@ -26,6 +26,24 @@ var srch_input =
 
 document.querySelector('#search_input')
 
+
+var expend_img_container = 
+
+document.querySelector('.expend_img')
+
+var expend_img = 
+
+document.querySelector('.expend_img img')
+
+var close_expend_img = 
+
+document.querySelector('.expend_img span')
+
+
+
+
+
+
 var pagination = 
 
 document.querySelector('.pagination')
@@ -216,6 +234,29 @@ if (srch_input.value == '' || srch_input.value == ' ') {
       }
 
 container.innerHTML = createCard
+      
+      
+      
+      var img_card = 
 
-    }
+document.querySelectorAll('.img_container img') 
 
+img_card.forEach(card =>{
+
+  card.addEventListener('click', function(){
+
+  expend_img_container.style.display = 'block'
+
+  expend_img.src = card.getAttribute('src')
+
+  })
+
+})
+      
+      
+      
+      close_expend_img.addEventListener('click',function(){
+
+   expend_img_container.style.display = 'none' 
+
+})
