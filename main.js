@@ -271,7 +271,7 @@ if (srch_input.value == '' || srch_input.value == ' ') {
               <div class="img_card">
 
                 <div class="img_container">
-
+                <div class='skeleton_anim'></div>
                 <img src=${data[i].src.original} alt=${data[i].alt}>
 
                 </div>
